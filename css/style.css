@@ -1,6 +1,11 @@
 /*----------------------------------
 	Common HTML elements and more for easier usage
 ------------------------------------*/
+
+/*=== MEDIA QUERY ===*/
+/* @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700); */
 html {
   overflow-x: hidden;
 }
@@ -817,6 +822,7 @@ fieldset[disabled] .s-btn {
 }
 
 @media (max-width: 61.9em) {
+
   .s-promo-block-v2__form {
     position: static;
     -webkit-transform: translate3d(0, 0, 0);
@@ -1140,7 +1146,9 @@ fieldset[disabled] .s-btn {
   width: 100%;
   height: auto;
   display: table;
-  padding: .75rem 1.875rem;
+  /* padding: .75rem 1.875rem; */
+  padding: 0.1rem 2.875rem;
+  background: #02020269;
 }
 
 .s-header__container:before, .s-header__container:after {
@@ -1167,7 +1175,8 @@ fieldset[disabled] .s-btn {
 
 .s-header__navbar-row-col {
   width: 50%;
-  display: table-cell;
+  /* display: table-cell; */
+  display: contents;
   vertical-align: middle;
 }
 
@@ -1183,7 +1192,11 @@ fieldset[disabled] .s-btn {
 
 .s-header__logo-link {
   display: inline-block;
-  padding: 1rem 0;
+}
+
+.logo_padding{
+  /* padding: 1rem 0; */
+  padding: 8px 0;
 }
 
 .s-header__logo-link:focus, .s-header__logo-link:hover {
@@ -1203,7 +1216,7 @@ fieldset[disabled] .s-btn {
 
 .s-header__logo-img-shrink {
   position: absolute;
-  top: 1rem;
+  top: 1px;
   left: 0;
   opacity: 0;
 }
@@ -1366,7 +1379,36 @@ fieldset[disabled] .s-btn {
   }
 }
 
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 767px) {
+
+  .js__header-overlay .s-header__logo-link {
+    padding: 1px 0;
+  }
+
+  .s-header__logo-img-shrink {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0;
+}
+ 
+  .js__trigger{
+    display: block;
+    float: right;
+      }
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 768px) {
+  .js__trigger{
+    display: none;
+      }
+}
+
 @media (max-width: 33.9em) {
+
   .s-header__nav-menu {
     width: 100%;
     float: none;
@@ -1603,7 +1645,7 @@ fieldset[disabled] .s-btn {
   background: white;
 }
 .s-header__shrink{
-   background: white; 
+  background: #222324;
 }
 
 /* Logo */
@@ -1633,7 +1675,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__trigger-icon {
-  background: #222324;
+  background: #ffffff;
 }
 
 /*----------------------------------
@@ -2074,12 +2116,14 @@ fieldset[disabled] .s-btn {
   font-family: themify;
   color: #fff;
   line-height: 3rem;
-  content: "\e627";
+  content: "\2191";
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
-
+.ti-angle-right:before {
+  content: "\e649";
+}
 .s-back-to-top:hover {
   background: #fff;
 }
@@ -2375,4 +2419,32 @@ fieldset[disabled] .s-btn {
 
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
+}
+
+.navbar-nav>li>a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+  float: right;
+  padding: 12px 14px 10px;
+}
+
+.navbar-nav > .active > a {
+  color: rgb(190, 30, 45);
+  font-weight: bold;
+}
+.navbar-nav>li>a:hover {
+  padding: 12px 14px 10px;
+  color: rgb(149, 200, 60);
+  background: rgba(255, 255, 255, 0);
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.navbar-nav {
+  float: right;
+  margin: 0;
 }

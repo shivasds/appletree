@@ -6,23 +6,23 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>An Apple Tree Events | Event Planners In Pune</title>
-<meta name=""description"" content="Explore The Best In Class Work Delivered By Pune's Best Event Management Company The An Apple Tree Event. ">
-<meta name=""keywords"" content=""Event management company in pune, event planners in pune"">
-<meta name=""robots"" content=""index, follow"">
-<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
-<meta name=""language"" content=""English"">
-<meta name=""revisit-after"" content="" days"">
-<meta name=""author"" content=""An Apple Tree Events"">
+        <title>An Apple Tree Events | Event Planners In Pune</title>
+        <meta name=""description"" content="Explore The Best In Class Work Delivered By Pune's Best Event Management Company The An Apple Tree Event. ">
+        <meta name=""keywords"" content=""Event management company in pune, event planners in pune"">
+        <meta name=""robots"" content=""index, follow"">
+        <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+        <meta name=""language"" content=""English"">
+        <meta name=""revisit-after"" content="" days"">
+        <meta name=""author"" content=""An Apple Tree Events"">
 
         <!-- Web Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet"> -->
 
         <!-- Vendor Styles -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/animate.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+        <!-- <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/> -->
         <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
 
@@ -32,6 +32,9 @@
         
         <!-- Theme Skins -->
         <link href="css/theme/red.css" rel="stylesheet" type="text/css"/>
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+     
 
         <!-- Favicon -->
         <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -55,32 +58,45 @@
         <!--========== HEADER ==========-->
         <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
             <!-- Navbar -->
-            <div >
-                <div class="s-header__container">
-                    <div class="s-header__navbar-row">
-                        <div class="s-header__navbar-row-col">
-                            <!-- Logo -->
-                            <div class="s-header__logo">
-                                <a href="home" class="s-header__logo-link">
-                                    <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
-                                    <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
-                                </a>
-                            </div>
-                            <!-- End Logo -->
-                        </div>
-                        <div class="s-header__navbar-row-col">
-                            <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="s-header__trigger-icon"></span>
-                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                                </svg>
-                            </a>
-                            <!-- End Trigger -->
-                        </div>
-                    </div>
+            <nav class="navbar navbar-custom navbar-fixed-top js__header-sticky js__header-overlay" role="navigation">
+                <div class="s-header__container ">
+                <div class="navbar-header s-header__navbar-row">
+                
+                                <div class="s-header__navbar-row-col">
+                                    <!-- Logo -->
+                                    <div class="s-header__logo">
+                                        <a href="home" class="s-header__logo-link logo_padding">
+                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
+                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
+                                        </a>
+                                    </div>
+                                    <!-- End Logo -->
+                                </div>
+
+                                <div class="s-header__navbar-row-col d-none">
+                                    <!-- Trigger -->
+                                    <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                                        <span class="s-header__trigger-icon"></span>
+                                        <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                                            <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                                        </svg>
+                                    </a>
+                                    <!-- End Trigger -->
+                                </div>
                 </div>
-            </div>
+                <div class="collapse navbar-collapse " id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about" >About</a></li>
+                    <li class="active"><a  href="events" >Events</a></li>
+                    <li><a href="gallery">Gallery</a></li>
+                    <li ><a  href="blog">Blog</a></li>
+                    <li><a  href="contacts" >Contacts</a></li>
+                
+                    </ul>
+                </div>
+                </div>
+            </nav>
             <!-- End Navbar -->
 
             <!-- Overlay -->
@@ -91,8 +107,8 @@
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="home">Home</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="about">About</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="events">Events</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="about">About</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events">Events</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="gallery">Gallery</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="blog">Blog</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts">Contacts</a></li>

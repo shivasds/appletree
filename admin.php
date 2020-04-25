@@ -33,16 +33,18 @@ $conn->close();
         <meta name="description" content="Apple Tree - HTML5 Theme">
 
         <!-- Web Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet"> -->
 
         <!-- Vendor Styles -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/animate.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+        <!-- <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/> -->
         <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
 
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+     
         <!-- Theme Styles -->
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
@@ -121,34 +123,47 @@ span.psw {
     <body>
 
         <!--========== HEADER ==========-->
-        <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+         <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
             <!-- Navbar -->
-            <div >
-                <div class="s-header__container">
-                    <div class="s-header__navbar-row">
-                        <div class="s-header__navbar-row-col">
-                            <!-- Logo -->
-                            <div class="s-header__logo">
-                                <a href="home" class="s-header__logo-link">
-                                    <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
-                                    <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
-                                </a>
-                            </div>
-                            <!-- End Logo -->
-                        </div>
-                        <div class="s-header__navbar-row-col">
-                            <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="s-header__trigger-icon"></span>
-                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                                </svg>
-                            </a>
-                            <!-- End Trigger -->
-                        </div>
+                <nav class="navbar navbar-custom navbar-fixed-top js__header-sticky js__header-overlay" role="navigation">
+                    <div class="s-header__container ">
+                    <div class="navbar-header s-header__navbar-row">
+                    
+                                    <div class="s-header__navbar-row-col">
+                                        <!-- Logo -->
+                                        <div class="s-header__logo">
+                                            <a href="home" class="s-header__logo-link logo_padding">
+                                                <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
+                                                <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
+                                            </a>
+                                        </div>
+                                        <!-- End Logo -->
+                                    </div>
+
+                                    <div class="s-header__navbar-row-col d-none">
+                                        <!-- Trigger -->
+                                        <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                                            <span class="s-header__trigger-icon"></span>
+                                            <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                                                <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                                            </svg>
+                                        </a>
+                                        <!-- End Trigger -->
+                                    </div>
                     </div>
-                </div>
-            </div>
+                    <div class="collapse navbar-collapse " id="custom-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="home">Home</a></li>
+                        <li><a href="about" >About</a></li>
+                        <li><a  href="events" >Events</a></li>
+                        <li><a href="gallery">Gallery</a></li>
+                        <li ><a  href="blog">Blog</a></li>
+                        <li ><a  href="contacts" >Contacts</a></li>
+                    
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
             <!-- End Navbar -->
 
             <!-- Overlay -->
