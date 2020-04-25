@@ -267,6 +267,7 @@ span.psw {
         <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+        
 
         <!-- General Components and Settings -->
         <script type="text/javascript" src="js/global.min.js"></script>

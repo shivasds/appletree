@@ -151,14 +151,12 @@
             <div class="g-container--md g-text-center--xs g-ver-center--md g-padding-y-150--xs g-padding-y-0--md">
                 <div class="g-margin-b-60--xs">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Welcome to Apple Tree Event</p>
-                    <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white g-letter-spacing--1">Creative Events</h1>
+                    <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white g-letter-spacing--1">Best Event Management Services In Pune</h1>
                     <p class="g-font-size-18--xs g-font-size-26--md g-color--white-opacity g-margin-b-0--xs">We are a creative Event management company that takes care of your business values, ethics & individual need. Our focus is on creating visibility through simplicity.</p>
                 </div>
+            
                 <span class="g-display-block--xs g-display-inline-block--sm g-padding-x-5--xs g-margin-b-10--xs g-margin-b-0--sm">
-                    <a href="#" class="text-uppercase s-btn s-btn-icon--md s-btn--primary-bg g-radius--50 g-padding-x-45--xs">Learn More</a>
-                </span>
-                <span class="g-display-block--xs g-display-inline-block--sm g-padding-x-5--xs g-margin-b-10--xs g-margin-b-0--sm">
-                    <a href="contacts" class="text-uppercase s-btn s-btn-icon--md s-btn--white-brd g-radius--50 g-padding-x-65--xs">Hire Us</a>
+                    <a data-toggle="modal" data-target="#exampleModal" class="text-uppercase s-btn s-btn-icon--md s-btn--white-brd g-radius--50 g-padding-x-65--xs">Hire Us</a>
                 </span>
             </div>
         </div>
@@ -224,7 +222,7 @@
                     <!-- Process -->
                     <li class="col-sm-3 col-xs-6 g-full-width--xs s-process-v1 g-margin-b-60--xs g-margin-b-0--md">
                         <div class="center-block g-text-center--xs">
-                            <div class="g-margin-b-30--xs">
+                            <div class="g-margin-b-40--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">01</span>
                             </div>
                             <div class="g-padding-x-20--xs">
@@ -238,7 +236,7 @@
                     <!-- Process -->
                     <li class="col-sm-3 col-xs-6 g-full-width--xs s-process-v1 g-margin-b-60--xs g-margin-b-0--md">
                         <div class="center-block g-text-center--xs">
-                            <div class="g-margin-b-30--xs">
+                            <div class="g-margin-b-40--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">02</span>
                             </div>
                             <div class="g-padding-x-20--xs">
@@ -252,7 +250,7 @@
                     <!-- Process -->
                     <li class="col-sm-3 col-xs-6 g-full-width--xs s-process-v1 g-margin-b-60--xs g-margin-b-0--sm">
                         <div class="center-block g-text-center--xs">
-                            <div class="g-margin-b-30--xs">
+                            <div class="g-margin-b-40--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">03</span>
                             </div>
                             <div class="g-padding-x-20--xs">
@@ -266,7 +264,7 @@
                     <!-- Process -->
                     <li class="col-sm-3 col-xs-6 g-full-width--xs s-process-v1">
                         <div class="center-block g-text-center--xs">
-                            <div class="g-margin-b-30--xs">
+                            <div class="g-margin-b-40--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">04</span>
                             </div>
                             <div class="g-padding-x-20--xs">
@@ -285,6 +283,34 @@
         </div>
         <!-- End Process -->
 
+               <!-- Feedback Form -->
+               <div class="g-bg-color--sky-light">
+            <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+                <div class="g-text-center--xs g-margin-b-80--xs">
+                    <h2 class="g-font-size-32--xs g-font-size-36--md">Get In Touch</h2>
+                </div>
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <div class="row g-margin-b-40--xs">
+                        <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
+                            <div class="g-margin-b-20--xs">
+                                <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Name" name="name">
+                            </div>
+                            <div class="g-margin-b-20--xs">
+                                <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email" name="email">
+                            </div>
+                            <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone" name="phone">
+                        </div>
+                        <div class="col-sm-6">
+                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Your message" name="text"></textarea>
+                        </div>
+                    </div>
+                    <div class="g-text-center--xs">
+                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs" name="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Feedback Form -->
         <!-- News -->
         
 
@@ -346,3 +372,54 @@
     </body>
     <!-- End Body -->
 </html>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="g-bg-color--sky-light">
+            <div class="container g-padding-y-80--xs ">
+            
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <div class="row ">
+                        <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
+                            <div class="g-margin-b-20--xs">
+                                <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Name" name="name">
+                            </div>
+
+                            <div class="g-margin-b-20--xs">
+                                <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email" name="email">
+                            </div>
+
+                            <div class="g-margin-b-20--xs">
+                            <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone" name="phone">
+                            </div>
+
+                            <div class="g-margin-b-20--xs">
+                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Your message" name="text"></textarea>
+                            </div>
+                       
+                      
+                            <div class="">
+                            <center><button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs" name="submit">Submit</button></center>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

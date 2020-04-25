@@ -2348,6 +2348,7 @@ fieldset[disabled] .s-btn {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 25px;
 }
 
 /* Arrows v1
@@ -2447,4 +2448,24 @@ fieldset[disabled] .s-btn {
 .navbar-nav {
   float: right;
   margin: 0;
+}
+
+.g-color--red {
+  color: #be1e2d !important;
+}
+
+.g-color--green {
+  color: #7abe41 !important;
+}
+.g-margin-b-30--xs {
+  /* margin-bottom: 1.875rem; */
+  border: 5px solid white;
+  padding: 10px;
+}
+
+.g-margin-b-25--xs {
+  margin-bottom: .5rem!important;
+}
+.bold{
+  font-weight: 400;
 }

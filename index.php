@@ -211,9 +211,11 @@ $headers1="";
             <!-- Swiper Wrapper -->
             <div class="swiper-wrapper">
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/02.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="container g-text-center--xs g-ver-center--xs ">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">An Event Management Company</h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--red">An Apple Tree Event </h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--green">Best Event Management Company In Pune </h1>
+                    
                         </div>
                         <!--<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
@@ -221,21 +223,23 @@ $headers1="";
                     </div>
                 </div>
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/01.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
+                    <div class="container g-text-center--xs g-ver-center--xs ">
+            
                             <div class="g-margin-b-30--xs">
                                 <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Craft Experience<br>That Help Brands<br>Stand Out</h2>
                             </div>
                             <!--<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
                                 <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                             </a>-->
-                        </div>
+                     
                     </div>
                 </div>
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/03.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="container g-text-center--xs g-ver-center--xs ">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--black" style="color: white;">Make Your Events Stand Out From The Rest</h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--red" >Make Your Events Stand Out From The Rest </h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--green" > Best Event Planners In Pune </h1>
+                    
                         </div>
                         <!--<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
@@ -262,8 +266,10 @@ $headers1="";
         <div id="js__scroll-to-section" class="container g-padding-y-8  0--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-100--xs">
                 <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to Apple Tree Event</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md">We Understand The Importance Of Events. <br>  We Create A Lifetime Memory For You.</h2><br/>
+                <p class="text-uppercase g-font-size-18--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-28--xs">Best Event Management Services In Pune</p>
                 <h2><b>Why Choose Us!</b></h2>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">We Understand The Importance Of Events. <br>  We Create A Lifetime Memory For You.</h2><br/>
+              
             </div>
             <div class="row g-margin-b-60--xs g-margin-b-70--md">
                 <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
@@ -368,7 +374,6 @@ $headers1="";
             <div class="container g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="row">
                     <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
-                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">About</p>
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
                             <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">About</h2>
                         </div>
@@ -733,7 +738,7 @@ $headers1="";
                                 <div class="g-margin-b-40--xs">
                                     <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>" A major thank you to you Apple Tree Event and your whole staff on your fabulous work. You have a first rate task. Our association couldn't make its success without you people. "</i></p>
                                 </div>
-                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs "></div>
                                 <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Dr. Sampath Sarda (NGO Event)</h4>
                             </div>
                         </div>
@@ -742,7 +747,7 @@ $headers1="";
                                 <div class="g-margin-b-40--xs">
                                     <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>"I need to thank everybody at Apple Tree Event for your assistance in making this years annual meeting a genuine achievement. It truly makes a difference to work with individuals who realize what they are doing and are happy to take the necessary steps to get it going. I admire it."</i></p>
                                 </div>
-                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs "></div>
                                 <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Neha Sonene (Deeper deck)</h4>
                             </div>
                         </div>
@@ -751,7 +756,7 @@ $headers1="";
                                 <div class="g-margin-b-40--xs">
                                     <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>" The measure of time you and your staff put into the execution, from arranging, to set-up, to clean up was extraordinary. Obviously your work and watching out for each and every detail has extraordinarily added to the achievement of the show. Much obliged to you Apple Tree Event. "</i></p>
                                 </div>
-                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs "></div>
                                 <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Kavita Gody (Daughter's Engagement & wedding)</h4>
                             </div>
                         </div>
@@ -760,7 +765,7 @@ $headers1="";
                                 <div class="g-margin-b-40--xs">
                                     <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>" We are thrilled with the arrangements made for my daughters wedding are really awesome. I will definately recommend An Apple Tree Event in my circle  "</i></p>
                                 </div>
-                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs "></div>
                                 <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Said Khan (Daughter's wedding)</h4>
                             </div>
                         </div>
@@ -769,7 +774,7 @@ $headers1="";
                                 <div class="g-margin-b-40--xs">
                                     <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>" We expected our kid's birthday to be excellent, Apple Tree team came up with their unique ideas and It has amazed us.  "</i></p>
                                 </div>
-                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                                <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs "></div>
                                 <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Varsha Bhojwani (Baby Birthday) </h4>
                             </div>
                         </div>
@@ -882,8 +887,7 @@ $headers1="";
         <div class="g-bg-color--sky-light">
             <div class="container g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="g-text-center--xs g-margin-b-80--xs">
-                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Feedback</p>
-                    <h2 class="g-font-size-32--xs g-font-size-36--md">Send us a note</h2>
+                    <h2 class="g-font-size-32--xs g-font-size-36--md">Get In Touch</h2>
                 </div>
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                     <div class="row g-margin-b-40--xs">

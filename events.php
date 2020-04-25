@@ -380,6 +380,35 @@
             </div>
         </div>
         <!-- End Clients -->
+
+               <!-- Feedback Form -->
+               <div class="g-bg-color--sky-light">
+            <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+                <div class="g-text-center--xs g-margin-b-80--xs">
+                    <h2 class="g-font-size-32--xs g-font-size-36--md">Get In Touch</h2>
+                </div>
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <div class="row g-margin-b-40--xs">
+                        <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
+                            <div class="g-margin-b-20--xs">
+                                <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Name" name="name">
+                            </div>
+                            <div class="g-margin-b-20--xs">
+                                <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email" name="email">
+                            </div>
+                            <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone" name="phone">
+                        </div>
+                        <div class="col-sm-6">
+                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Your message" name="text"></textarea>
+                        </div>
+                    </div>
+                    <div class="g-text-center--xs">
+                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs" name="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Feedback Form -->
         <!--========== END PAGE CONTENT ==========-->
 
         <!--========== FOOTER ==========-->
