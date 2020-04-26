@@ -1148,7 +1148,7 @@ fieldset[disabled] .s-btn {
   display: table;
   /* padding: .75rem 1.875rem; */
   padding: 0.1rem 2.875rem;
-  background: #02020269;
+  background: #222324;
 }
 
 .s-header__container:before, .s-header__container:after {
@@ -2469,3 +2469,13 @@ fieldset[disabled] .s-btn {
 .bold{
   font-weight: 400;
 }
+.cbp-popup-prev::before {
+    content: "<";
+}
+.cbp-popup-next::before {
+  content: ">";
+}
+.cbp-popup-close{
+  content: "X";
+}
+

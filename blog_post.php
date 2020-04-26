@@ -108,9 +108,9 @@ span.psw {
                                 <div class="s-header__navbar-row-col">
                                     <!-- Logo -->
                                     <div class="s-header__logo">
-                                        <a href="home" class="s-header__logo-link logo_padding">
-                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
-                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
+                                    <a href="home" class="s-header__logo-link logo_padding">
+                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo-name.png" alt="Apple Tree Logo">
+                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png" alt="Apple Tree Logo">
                                         </a>
                                     </div>
                                     <!-- End Logo -->

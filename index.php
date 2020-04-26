@@ -120,8 +120,8 @@ $headers1="";
                                     <!-- Logo -->
                                     <div class="s-header__logo">
                                         <a href="home" class="s-header__logo-link logo_padding">
-                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
-                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
+                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo-name.png" alt="Apple Tree Logo">
+                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png" alt="Apple Tree Logo">
                                         </a>
                                     </div>
                                     <!-- End Logo -->
@@ -250,12 +250,12 @@ $headers1="";
             <!-- End Swiper Wrapper -->
 
             <!-- Arrows -->
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
-            <!-- End Arrows -->
+            <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle js__swiper-btn--next"><i class="fa fa-angle-right"></i></a>
+            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle js__swiper-btn--prev"><i class="fa fa-angle-left"></i></a>
+               <!-- End Arrows -->
             
             <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
-                <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
+            <i class="fa fa-angle-double-down" ></i></span>
                 <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Learn More</p>
             </a>
         </div>
@@ -276,7 +276,8 @@ $headers1="";
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
-                                <i class="g-font-size-28--xs g-color--primary ti-desktop"></i>
+                                 <i class="fa fa-desktop g-font-size-28--xs g-color--primary"></i>
+                                <!-- <i class="g-font-size-28--xs g-color--primary ti-desktop"></i> -->
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
@@ -289,7 +290,8 @@ $headers1="";
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
-                                <i class="g-font-size-28--xs g-color--primary ti-settings"></i>
+                            <i class="fa fa-cog g-font-size-28--xs g-color--primary"></i>
+                                <!-- <i class="g-font-size-28--xs g-color--primary ti-settings"></i> -->
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
@@ -446,12 +448,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/05.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -470,12 +472,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/06.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -494,12 +496,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/07.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -518,12 +520,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/08.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -542,12 +544,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -566,12 +568,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -590,12 +592,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/01.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -614,12 +616,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/02.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -638,12 +640,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/03.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -662,12 +664,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -686,12 +688,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/11.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -710,12 +712,12 @@ $headers1="";
                         <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                             <li>
                                 <a href="img/970x647/12.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Gallery <br/> by Apple Tree Event">
-                                    <i class="ti-fullscreen"></i>
+                                    <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
+                                    <i class="fa fa-unlink"></i>
                                 </a>
                             </li>
                         </ul>
@@ -783,8 +785,8 @@ $headers1="";
 
                     <!-- Arrows -->
                     <div class="g-font-size-22--xs g-color--white-opacity js__swiper-fraction"></div>
-                    <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-                    <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+                    <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle js__swiper-btn--next"><i class="fa fa-angle-right"></i></a>
+                    <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle js__swiper-btn--prev"><i class="fa fa-angle-left"></i></a>
                     <!-- End Arrows -->
                 </div>
             </div>
@@ -792,7 +794,7 @@ $headers1="";
         <!-- End Testimonials -->
 
         <!-- Clients -->
-        <div class="g-bg-color--sky-light">
+        <div class="g-bg-color--sky-pure-white ">
             <div class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
                 <!-- Swiper Clients -->
                 <div class="s-swiper js__swiper-clients">

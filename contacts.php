@@ -77,14 +77,14 @@ $headers1="";
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>An Apple Tree Events Pune | Contact Us</title>
-<meta name=""description"" content=""An Apple Tree Event. Best Event Planners In Pune. We Undertake Corporate Events, Social Events, Private Events, Wedding Planning and More. Contact Us Now. "">
-<meta name=""keywords"" content=""Event management company in pune, event planners in pune"">
-<meta name=""robots"" content=""index, follow"">
-<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
-<meta name=""language"" content=""English"">
-<meta name=""revisit-after"" content="" days"">
-<meta name=""author"" content=""An Apple Tree Events"">
+        <title>An Apple Tree Events Pune | Contact Us</title>
+        <meta name=""description"" content=""An Apple Tree Event. Best Event Planners In Pune. We Undertake Corporate Events, Social Events, Private Events, Wedding Planning and More. Contact Us Now. "">
+        <meta name=""keywords"" content=""Event management company in pune, event planners in pune"">
+        <meta name=""robots"" content=""index, follow"">
+        <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+        <meta name=""language"" content=""English"">
+        <meta name=""revisit-after"" content="" days"">
+        <meta name=""author"" content=""An Apple Tree Events"">
 
         <!-- Web Fonts -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet"> -->
@@ -121,9 +121,9 @@ $headers1="";
                                 <div class="s-header__navbar-row-col">
                                     <!-- Logo -->
                                     <div class="s-header__logo">
-                                        <a href="home" class="s-header__logo-link logo_padding">
-                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo-name.png" alt="Apple Tree Logo">
-                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Apple Tree Logo">
+                                    <a href="home" class="s-header__logo-link logo_padding">
+                                            <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo-name.png" alt="Apple Tree Logo">
+                                            <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png" alt="Apple Tree Logo">
                                         </a>
                                     </div>
                                     <!-- End Logo -->
@@ -144,10 +144,10 @@ $headers1="";
                     <ul class="nav navbar-nav navbar-right">
                     <li><a href="home">Home</a></li>
                     <li><a href="about" >About</a></li>
-                    <li><a  href="events" >Events</a></li>
+                    <li><a href="events" >Events</a></li>
                     <li><a href="gallery">Gallery</a></li>
-                    <li ><a  href="blog">Blog</a></li>
-                    <li class="active"><a  href="contacts" >Contacts</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li class="active"><a  href="contacts">Contacts</a></li>
                 
                     </ul>
                 </div>
@@ -219,21 +219,21 @@ $headers1="";
                 <div class="row g-row-col--5 g-margin-b-80--xs">
                     <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs ti-email"></i>
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs fa fa-envelope-o"></i>
                             <h4 class="g-font-size-18--xs g-color--black g-margin-b-5--xs">Email</h4>
                             <p class="g-color--black-opacity">enquiry@anappletreeevent.com</p>
                         </div>
                     </div>
                     <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs ti-map-alt"></i>
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs fa fa-map-marker"></i>
                             <h4 class="g-font-size-18--xs g-color--black g-margin-b-5--xs">Address</h4>
                             <p class="g-color--black-opacity">Apple Tree Event, office no 24,4th floor,Ewing,Rahul Complex,Near Krishna Hospital,Paud road,Kothrud,Pune-411038</p>
                         </div>
                     </div>
                     <div class="col-xs-4 g-full-width--xs">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs ti-headphone-alt"></i>
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs fa fa-tty"></i>
                             <h4 class="g-font-size-18--xs g-color--black g-margin-b-5--xs">Call at</h4>
                             <p class="g-color--black-opacity">+91 7888299878</p>
                         </div>
@@ -258,7 +258,7 @@ $headers1="";
                 <div class="s-portfolio__item cbp-item Nasik">
                    <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs ti-map-alt"></i>
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs fa fa-map-o"></i>
                             <h4 class="g-font-size-18--xs g-color--black g-margin-b-5--xs">Address</h4>
                             <p class="g-color--black-opacity">Apple Tree Event ,gurudip r/w,plot.116(A), mahalaxmi nagar , adgaonshivar ,near kidzee school ,nashik-422001</p>
                             <p class="g-color--black-opacity">9158122722 (Chandrakant Salve)</p>
@@ -270,7 +270,7 @@ $headers1="";
                 <div class="s-portfolio__item cbp-item Aurangabad">
                     <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs ti-map-alt"></i>
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs fa fa-map-o"></i>
                             <h4 class="g-font-size-18--xs g-color--black g-margin-b-5--xs">Address</h4>
                             <p class="g-color--black-opacity">Apple Tree Event office,2nd floor  back side,Malan plaza, Durga Mata mandir,Auragabad.431001</p>
                             <p class="g-color--black-opacity">07875138919(Sushma Nikalje)</p>
@@ -281,7 +281,7 @@ $headers1="";
                 <div class="s-portfolio__item cbp-item Jalgaon">
                     <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
                         <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs ti-map-alt"></i>
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--black-opacity g-margin-b-30--xs fa fa-map-o"></i>
                             <h4 class="g-font-size-18--xs g-color--black g-margin-b-5--xs">Address</h4>
                             <p class="g-color--black-opacity">Apple Tree Event,Plot no 33, Gadakri Nagar, Bhusawal.Dist Jalgoan:- 425201</p>
                             <p class="g-color--black-opacity">9763426151 (Sandip Salve )</p>
@@ -338,7 +338,7 @@ $headers1="";
         <script type="text/javascript" src="vendor/counterup.min.js"></script>
         <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script> -->
         <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
 
         <!-- General Components and Settings -->
