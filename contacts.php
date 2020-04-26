@@ -300,7 +300,7 @@ $headers1="";
                         <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
                             <input type="email" class="form-control s-form-v3__input" placeholder="* Email" style="COLOR: green;" name="email">
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
                             <input type="text" class="form-control s-form-v3__input" placeholder="* Phone" style="COLOR: green;" name="phone">
                         </div>
                     </div>
