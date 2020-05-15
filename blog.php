@@ -74,6 +74,17 @@ require_once "dbcon.php";
                     <ul class="nav navbar-nav navbar-right">
                     <li><a href="home">Home</a></li>
                     <li><a href="about" >About</a></li>
+                    <!-- <li><a  href="services" >Services</a></li> -->
+                    <li class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services</i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="event_management">Event Management</a>
+                            <a class="dropdown-item" href="event_support">Event Support</a>
+                           
+                        </div>
+                    </li>
                     <li><a  href="events" >Events</a></li>
                     <li><a href="gallery">Gallery</a></li>
                     <li class="active"><a  href="blog">Blog</a></li>
@@ -93,10 +104,19 @@ require_once "dbcon.php";
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="home">Home</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="about">About</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about">About</a></li>
+                            
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" onclick="myFunction(this)">Services</a><i id="arrow_down" class="arrow down"></i></li>
+
+                            <div class="" id="myDIV">
+                                <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="event_management">Event Management</a></li>
+                                <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="event_support">Event Support</a></li>
+                            </div>
+
+
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events">Events</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="gallery">Gallery</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="blog">Blog</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="blog">Blog</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts">Contacts</a></li>
                         </ul>
                         <!-- End Menu List -->
@@ -105,30 +125,36 @@ require_once "dbcon.php";
                 <!-- End Nav -->
                 
                 <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--lb">
+                <!-- <ul class="list-inline s-header__action s-header__action--lb">
                     <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
                     <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-                </ul>
+                </ul> -->
                 <!-- End Action -->
 
                 <!-- Action -->
                 <ul class="list-inline s-header__action s-header__action--rb">
                     <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://www.behance.net/keenthemes">
+                        <a class="s-header__action-link" href="">
                             <i class="g-padding-r-5--xs ti-facebook"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
                         </a>
                     </li>
                     <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://twitter.com/keenthemes">
+                        <a class="s-header__action-link" href="">
                             <i class="g-padding-r-5--xs ti-twitter"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
                         </a>
                     </li>
                     <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://dribbble.com/keenthemes">
-                            <i class="g-padding-r-5--xs ti-dribbble"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Dribbble</span>
+                        <a class="s-header__action-link" href="">
+                            <i class="g-padding-r-5--xs ti-pinterest"></i>
+                            <span class="g-display-none--xs g-display-inline-block--sm">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="s-header__action-item">
+                        <a class="s-header__action-link" href="">
+                            <i class="g-padding-r-5--xs ti-linkedin"></i>
+                            <span class="g-display-none--xs g-display-inline-block--sm">Linkedin</span>
                         </a>
                     </li>
                 </ul>
@@ -228,7 +254,26 @@ $conn->close();
         <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
+        <script>
+            $(document).ready(function(){
 
+                $("#myDIV").addClass("hidden")
+            })
+        function myFunction(id) {
+            if($(id).hasClass('-is-active')){
+                $(id).removeClass('-is-active')
+                $("#arrow_down").removeClass('hidden')
+                $("#myDIV").addClass('hidden')
+            }
+            else{
+                $(id).addClass('-is-active')
+                $("#arrow_down").addClass('hidden')
+                $("#myDIV").removeClass('hidden')
+            }
+            
+        }
+
+            </script>
     </body>
     <!-- End Body -->
 </html>

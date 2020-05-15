@@ -53,15 +53,7 @@ a:focus, a:hover {
 /*----------------------------------
   Button
 ------------------------------------*/
-.s-btn--white-bg {
-  color: #222324;
-  background: #fff;
-}
 
-.s-btn--white-bg:focus, .s-btn--white-bg:hover {
-  color: #b99769;
-  background: #fff;
-}
 
 .s-btn--dark-bg {
   color: #fff;

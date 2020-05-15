@@ -1221,7 +1221,7 @@
 }
 
 .g-box-shadow__dark-lightest-v2 {
-  box-shadow: 0 1.25rem 1.25rem rgba(34, 35, 36, 0.05);
+    box-shadow: 0 0.5rem 0.5rem rgba(34, 35, 36, 0.05);
 }
 
 .g-box-shadow__dark-lightest-v3 {
@@ -7368,4 +7368,11 @@
 .g-bg-color--primary-ltr {
   background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.6) 0%, #13b1cd 100%);
   background-repeat: repeat-x;
+}
+
+.g-color--green {
+  color:#8d161b !important
+}
+.g-bg-color--grey {
+  background-color: #5149490d !important;
 }

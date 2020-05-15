@@ -142,6 +142,17 @@ $headers1="";
                     <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="home">Home</a></li>
                     <li><a href="about" >About</a></li>
+                    <!-- <li><a  href="services" >Services</a></li> -->
+                       <li class="dropdown">
+                       <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="event_management">Event Management</a> <br>
+                            <a class="dropdown-item" href="event_support">Event Support</a>
+                           
+                        </div>
+                    </li>
                     <li><a  href="events" >Events</a></li>
                     <li><a href="gallery">Gallery</a></li>
                     <li ><a  href="blog">Blog</a></li>
@@ -160,8 +171,17 @@ $headers1="";
                     <div class="container-fluid">
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="home">Home</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="about">About</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="home">Home</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about">About</a></li>
+                           
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" onclick="myFunction(this)">Services</a><i id="arrow_down" class="arrow down"></i></li>
+
+                    <div class="" id="myDIV">
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="event_management">Event Management</a></li>
+                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="event_support">Event Support</a></li>
+                    </div>
+
+
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events">Events</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="gallery">Gallery</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="blog">Blog</a></li>
@@ -173,30 +193,36 @@ $headers1="";
                 <!-- End Nav -->
                 
                 <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--lb">
+                <!-- <ul class="list-inline s-header__action s-header__action--lb">
                     <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
                     <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-                </ul>
+                </ul> -->
                 <!-- End Action -->
 
                 <!-- Action -->
                 <ul class="list-inline s-header__action s-header__action--rb">
                     <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://www.behance.net/keenthemes">
+                        <a class="s-header__action-link" href="">
                             <i class="g-padding-r-5--xs ti-facebook"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
                         </a>
                     </li>
                     <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://twitter.com/keenthemes">
+                        <a class="s-header__action-link" href="">
                             <i class="g-padding-r-5--xs ti-twitter"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
                         </a>
                     </li>
                     <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://dribbble.com/keenthemes">
-                            <i class="g-padding-r-5--xs ti-dribbble"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Dribbble</span>
+                        <a class="s-header__action-link" href="">
+                            <i class="g-padding-r-5--xs ti-pinterest"></i>
+                            <span class="g-display-none--xs g-display-inline-block--sm">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="s-header__action-item">
+                        <a class="s-header__action-link" href="">
+                            <i class="g-padding-r-5--xs ti-linkedin"></i>
+                            <span class="g-display-none--xs g-display-inline-block--sm">Linkedin</span>
                         </a>
                     </li>
                 </ul>
@@ -213,8 +239,8 @@ $headers1="";
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/02.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs ">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--red">An Apple Tree Event </h1>
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--green">Best Event Management Company In Pune </h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">An Apple Tree Event </h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Best Event Management Company In Pune </h1>
                     
                         </div>
                         <!--<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
@@ -237,8 +263,8 @@ $headers1="";
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/03.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs ">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--red" >Make Your Events Stand Out From The Rest </h1>
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--green" > Best Event Planners In Pune </h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white" >Make Your Events Stand Out From The Rest </h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white" > Best Event Planners In Pune </h1>
                     
                         </div>
                         <!--<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
@@ -276,7 +302,7 @@ $headers1="";
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
-                                 <i class="fa fa-desktop g-font-size-28--xs g-color--primary"></i>
+                                 <i class="	fa fa-group g-font-size-28--xs g-color--primary"></i>
                                 <!-- <i class="g-font-size-28--xs g-color--primary ti-desktop"></i> -->
                             </div>
                         </div>
@@ -304,7 +330,7 @@ $headers1="";
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
-                                <i class="g-font-size-28--xs g-color--primary ti-ruler-alt-2"></i>
+                                <i class="fa fa-calendar g-font-size-28--xs g-color--primary "></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
@@ -366,7 +392,7 @@ $headers1="";
                 <div class="g-margin-b-80--xs">
                     <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">The Fastest Way To Celebrate</h2>
                 </div>
-                <a href="Gallery" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn More</a>
+                <a href="gallery" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn More</a>
             </div>
         </div>
         <!-- End Parallax -->
@@ -451,11 +477,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -475,11 +497,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -499,11 +517,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -523,11 +537,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -547,11 +557,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -571,11 +577,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div> 
@@ -595,11 +597,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -619,11 +617,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -643,11 +637,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -667,11 +657,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -691,11 +677,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -715,11 +697,7 @@ $headers1="";
                                     <i class="fa fa-arrows-alt"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="fa fa-unlink"></i>
-                                </a>
-                            </li>
+                         
                         </ul>
                     </div>
                 </div>
@@ -955,7 +933,27 @@ $headers1="";
         <script type="text/javascript" src="js/components/google-map.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
+        <script>
+            $(document).ready(function(){
 
+                $("#myDIV").addClass("hidden")
+            })
+            function myFunction(id) {
+                if($(id).hasClass('-is-active')){
+                    $(id).removeClass('-is-active')
+                    $("#arrow_down").removeClass('hidden')
+                    $("#myDIV").addClass('hidden')
+                }
+                else{
+                    $(id).addClass('-is-active')
+                    $("#arrow_down").addClass('hidden')
+                    $("#myDIV").removeClass('hidden')
+                }
+                
+            }
+
+
+            </script>
     </body>
     <!-- End Body -->
 </html>

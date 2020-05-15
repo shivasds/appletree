@@ -60,7 +60,7 @@
                         </a>
                     </div>
                     <div class="col-xs-6 g-text-right--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="home">Apple Tree Event</a>Powered by: <a href="http://www.secondsdigital.com/">Seconds Digital Solutions Pvt Ltd.</a></p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="home">An Apple Tree Event  &nbsp;</a> Powered by: <a href="http://www.secondsdigital.com/"> &nbsp; Seconds Digital Solutions Pvt Ltd.</a></p>
                     </div>
                 </div>
 
